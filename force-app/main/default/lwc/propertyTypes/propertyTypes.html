@@ -1,0 +1,19 @@
+<template>
+    <table style="background: white;">
+        <tr>
+            <td>
+                Reactive Private Proeprty
+                <lightning-input type="text" onchange={changeHandler1}></lightning-input>
+                <br/>
+                Value: {reactiveProperty}
+            </td>
+            <td>
+                Non-Reactive Private Property
+                <lightning-input type="text" onchange={changeHandler2}></lightning-input>
+                <br/>
+                Value: {nonReactiveProperty}
+            </td>
+        </tr>
+    </table>
+    
+</template>

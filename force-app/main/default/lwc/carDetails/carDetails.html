@@ -1,0 +1,9 @@
+<template>
+    <ul>
+        <template for:each={carDetails} for:item="car">
+            <li key={car.Name}>
+                <c-car-detail car-detail={car}></c-car-detail>
+            </li>  
+        </template>
+    </ul>
+</template>
